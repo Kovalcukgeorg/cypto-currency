@@ -1,0 +1,36 @@
+.navbar-brand img {
+    width: 25px;
+    height: 25px;
+}
+.top-slider .carousel-item .carousel-caption {
+    background-color: #000;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+.content {
+  
+    background: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+}
+.content .crypto-card .card{
+    margin-bottom: 15px;
+}
+.content .crypto-card .card .card-img-top{
+    height: 190px;
+} 
+.content .crypto-card .card-place {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 375px){
+    .content .crypto-card .card{
+        margin-bottom: 15px;
+        width: auto
+    }  
+}
+@media (min-width: 992px){
+    .content .crypto-card .card{
+        margin-bottom: 15px;
+        width: auto
+    }  
+}
